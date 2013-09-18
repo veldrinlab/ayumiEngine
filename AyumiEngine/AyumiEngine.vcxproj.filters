@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AyumiEngine">
+      <UniqueIdentifier>{7440a0b8-57c7-42dd-bc9a-c2d95b0bd12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AyumiEngine\AyumiScene">
+      <UniqueIdentifier>{9fbdb062-9760-49ec-97ad-5c8603c159a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AyumiEngine\AyumiRenderer">
+      <UniqueIdentifier>{d9fe249e-7df5-4778-888e-5351e1793e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AyumiEngine\AyumiMath">
+      <UniqueIdentifier>{5d6b070e-e865-4d18-8e35-60f262ec51f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AyumiEngine\AyumiCore">
+      <UniqueIdentifier>{fb3a8225-952d-4b6d-aa02-85b9baac5d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AyumiEngine\AyumiInput">
+      <UniqueIdentifier>{68f904b8-5913-45ab-a293-b3f344b7c40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AyumiEngine\AyumiSound">
+      <UniqueIdentifier>{97d8cb1d-b941-491f-8db1-743848f27425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AyumiEngine\AyumiPhysics">
+      <UniqueIdentifier>{747f5b4f-e035-4d56-824e-6295c425eae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AyumiEngine\AyumiUtils">
+      <UniqueIdentifier>{de155e90-1e65-4ab4-acde-de36457f8fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AyumiEngine\AyumiResource">
+      <UniqueIdentifier>{f8002566-57d3-48ad-8937-5cbbfa7c2677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AyumiEngine\AyumiDestruction">
+      <UniqueIdentifier>{45e40938-0b10-4499-9a9c-dc23b00dc42d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diagrams">
+      <UniqueIdentifier>{09c0655e-ec48-4c43-a79c-510361c22b4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AyumiEngine\AyumiCore\Configuration.cpp">
+      <Filter>AyumiEngine\AyumiCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiCore\ContextManager.cpp">
+      <Filter>AyumiEngine\AyumiCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiCore\Timer.cpp">
+      <Filter>AyumiEngine\AyumiCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\Engine.cpp">
+      <Filter>AyumiEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\Logger.cpp">
+      <Filter>AyumiEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiRenderer\Renderer.cpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\Mesh.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScene\SceneEntity.cpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScene\SceneManager.cpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiUtils\BoundingBox.cpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiUtils\BoundingSphere.cpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiUtils\VertexArrayObject.cpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiUtils\VertexBufferObject.cpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiInput\InputManager.cpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiInput\Keyboard.cpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\Texture.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\Resource.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\ResourceManager.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiInput\Mouse.cpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\ShaderManager.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\Shader.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\MeshManager.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\TextureManager.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiRenderer\MaterialManager.cpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScene\FirstPersonCamera.cpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScene\StaticCamera.cpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScene\AnimatedEntity.cpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\MeshFactory.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScene\ThirdPersonCamera.cpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiInput\GamePad.cpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiMath\CommonMath.cpp">
+      <Filter>AyumiEngine\AyumiMath</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiRenderer\LightManager.cpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\TextureFactory.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiUtils\FrameBufferObject.cpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\ShaderFactory.cpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiRenderer\Sprite.cpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiRenderer\SpriteManager.cpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiCore\EngineCoreStates.cpp">
+      <Filter>AyumiEngine\AyumiCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScene\FreeCamera.cpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScene\FlightCamera.cpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiRenderer\VolumeStorage.cpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiSound\SoundEffect.cpp">
+      <Filter>AyumiEngine\AyumiSound</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiSound\MusicTrack.cpp">
+      <Filter>AyumiEngine\AyumiSound</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiSound\SoundManager.cpp">
+      <Filter>AyumiEngine\AyumiSound</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScene\Frustum.cpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiRenderer\Occlusion.cpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScene\OctTree.cpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiRenderer\EffectManager.cpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiScript.cpp">
+      <Filter>AyumiEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\VirtualMachine.cpp">
+      <Filter>AyumiEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiPhysics\PhysicsManager.cpp">
+      <Filter>AyumiEngine\AyumiPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiPhysics\CollisionHandler.cpp">
+      <Filter>AyumiEngine\AyumiPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiSound\SoundInterface.cpp">
+      <Filter>AyumiEngine\AyumiSound</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiRenderer\ParticleManager.cpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumCullingDemo.cpp" />
+    <ClCompile Include="OcclusionCullingDemo.cpp" />
+    <ClCompile Include="OctTreeDemo.cpp" />
+    <ClCompile Include="MaterialsDemo.cpp" />
+    <ClCompile Include="DepthOfFieldDemo.cpp" />
+    <ClCompile Include="FractureDemo.cpp" />
+    <ClCompile Include="ShadowMappingDemo.cpp" />
+    <ClCompile Include="AyumiEngine\EngineInterface.cpp">
+      <Filter>AyumiEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainDestructionDemo.cpp" />
+    <ClCompile Include="GeoModDemo.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\GeoModifier.cpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Bound.cpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClCompile>
+    <ClCompile Include="GodraysDemo.cpp" />
+    <ClCompile Include="SprintGame.cpp" />
+    <ClCompile Include="ReflexGame.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\FaceSet.cpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Line.cpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Object3D.cpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Segment.cpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Vector.cpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Vertex.cpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiDestruction\VertexSet.cpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Face.cpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClCompile>
+    <ClCompile Include="IntelDemo.cpp" />
+    <ClCompile Include="SkyDemo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AyumiEngine\AyumiCore\Configuration.hpp">
+      <Filter>AyumiEngine\AyumiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiCore\ContextManager.hpp">
+      <Filter>AyumiEngine\AyumiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiCore\Timer.hpp">
+      <Filter>AyumiEngine\AyumiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\Log.hpp">
+      <Filter>AyumiEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\Logger.hpp">
+      <Filter>AyumiEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiMath\CommonMath.hpp">
+      <Filter>AyumiEngine\AyumiMath</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiMath\Matrix.hpp">
+      <Filter>AyumiEngine\AyumiMath</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiMath\Quaternion.hpp">
+      <Filter>AyumiEngine\AyumiMath</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiMath\Vector.hpp">
+      <Filter>AyumiEngine\AyumiMath</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\Renderer.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\Mesh.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\SceneEntity.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\SceneManager.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\BoundingBox.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\BoundingSphere.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\Vertex.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\VertexArrayObject.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\VertexBufferObject.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\InputAction.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\InputDevice.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\InputManager.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\Keyboard.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\Texture.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\Resource.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\ResourceManager.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\Singleton.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\Noncopyable.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\Cloneable.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\LightType.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\InputKey.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\Mouse.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\InputMoveAction.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityGeometry.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityMaterial.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityState.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityPhysics.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\Manager.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\ShaderManager.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\Shader.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\MeshManager.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\TextureManager.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\MaterialManager.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\MaterialProperties.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\VirtualMachine.hpp">
+      <Filter>AyumiEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScript.hpp">
+      <Filter>AyumiEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\DirectionalLight.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\PointLight.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\SpotLight.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\TextureType.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\Camera.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\FirstPersonCamera.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\FlightCamera.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\FreeCamera.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\StaticCamera.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\ThirdPersonCamera.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\AnimatedEntity.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\MeshFactory.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\FileMD2.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\GamePad.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\LightManager.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\TextureFactory.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\FrameBufferObject.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiResource\ShaderFactory.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\InputMouseButton.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\InputPadButton.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiInput\InputAxis.hpp">
+      <Filter>AyumiEngine\AyumiInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\DefinedGeometry.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\DefinedShader.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\Sprite.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\LightSourceParameters.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\SpriteManager.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\TransformationMatrices.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiUtils\State.hpp">
+      <Filter>AyumiEngine\AyumiUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiCore\StateMachine.hpp">
+      <Filter>AyumiEngine\AyumiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiCore\EngineCoreStates.hpp">
+      <Filter>AyumiEngine\AyumiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityUpdateType.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\VolumeStorage.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiSound\SoundEffect.hpp">
+      <Filter>AyumiEngine\AyumiSound</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiSound\MusicTrack.hpp">
+      <Filter>AyumiEngine\AyumiSound</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiSound\SoundManager.hpp">
+      <Filter>AyumiEngine\AyumiSound</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiSound\SoundInterface.hpp">
+      <Filter>AyumiEngine\AyumiSound</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\Frustum.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\Occlusion.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\Octtree.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\SceneGraph.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\RenderPass.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\EffectManager.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\EngineInterface.hpp">
+      <Filter>AyumiEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiPhysics\PhysicsManager.hpp">
+      <Filter>AyumiEngine\AyumiPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiPhysics\CollisionHandler.hpp">
+      <Filter>AyumiEngine\AyumiPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiPhysics\PhysicsUtils.hpp">
+      <Filter>AyumiEngine\AyumiPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\Engine.hpp">
+      <Filter>AyumiEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\SceneNode.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\Particle.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\ParticleEmiter.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\ParticleManager.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityLogic.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiScene\KeyFrameAnimation.hpp">
+      <Filter>AyumiEngine\AyumiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiRenderer\ShadowMap.hpp">
+      <Filter>AyumiEngine\AyumiRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\AyumiDestruction.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiDemo.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\DestructibleTerrain.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\DestructibleObject.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\GeoModifier.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Bound.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="SprintGame.hpp" />
+    <ClInclude Include="ReflexGame.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\VertexSet.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\FaceSet.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Line.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Object3D.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Segment.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Solid.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Vector.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Vertex.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Face.hpp">
+      <Filter>AyumiEngine\AyumiDestruction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AyumiEngine\AyumiResource\ResourceType.hpp">
+      <Filter>AyumiEngine\AyumiResource</Filter>
+    </None>
+    <None Include="ClassDiagram11.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="CoreModule.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="InputModule.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="ResourceModule.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="UtilsModule.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="SoundModule.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="RenderModule.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="SceneModule.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="PhysicsModule.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="MathModule.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="MainModule.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+  </ItemGroup>
+</Project>

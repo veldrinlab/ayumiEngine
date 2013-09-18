@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="x64-Debug|Win32">
+      <Configuration>x64-Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="x64-Debug|x64">
+      <Configuration>x64-Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="x64-Release|Win32">
+      <Configuration>x64-Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="x64-Release|x64">
+      <Configuration>x64-Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7DF6C6E1-F106-40B9-B4D3-0D5E0861AB58}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AyumiEngine</RootNamespace>
+    <SccProjectName>Svn</SccProjectName>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='x64-Debug|x64'">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='x64-Debug|Win32'">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='x64-Release|x64'">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='x64-Release|Win32'">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Veldrin\Documents\Visual Studio 2012\Projects\SFMLTest\externals\include\PhysXAPI;C:\Users\Veldrin\Documents\Visual Studio 2012\Projects\SFMLTest\externals\include;C:\Users\Veldrin\Documents\Visual Studio 2012\Projects\SFMLTest\externals\include\PhysXAPI\;C:\Users\Veldrin\Documents\Visual Studio 2012\Projects\SFMLTest\externals\include\PhysXAPI\extensions;C:\Users\Veldrin\Documents\Visual Studio 2012\Projects\SFMLTest\externals\include\PhysXAPI\foundation;C:\Users\Veldrin\Documents\Visual Studio 2012\Projects\SFMLTest\externals\include\PhysXAPI\pxtask\include;C:\Users\Veldrin\Documents\Visual Studio 2012\Projects\SFMLTest\externals\include\PhysXAPI\common;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Veldrin\Documents\Visual Studio 2012\Projects\SFMLTest\externals\lib;$(LibraryPath)</LibraryPath>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\externals\include\PhysXAPI\pxtask\include;..\externals\include\PhysXAPI\common;..\externals\include\PhysXAPI\extensions;..\externals\include\PhysXAPI\foundation;..\externals\include\PhysXAPI;..\externals\include;..\externals\include\tbb;$(IncludePath)</IncludePath>
+    <LibraryPath>..\externals\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\externals\x86-32\include\PhysXAPI\pxtask\include;..\externals\x86-32\include\PhysXAPI\common;..\externals\x86-32\include\PhysXAPI\extensions;..\externals\x86-32\include\PhysXAPI\foundation;..\externals\x86-32\include\PhysXAPI;..\externals\x86-32\include;..\externals\x86-32\include\tbb;$(IncludePath)</IncludePath>
+    <LibraryPath>..\externals\x86-32\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\PhysXAPI\foundation;C:\Program Files\Microsoft Visual Studio 10.0\VC\include\PhysXAPI\common;C:\Program Files\Microsoft Visual Studio 10.0\VC\include\PhysXAPI;C:\Program Files\Microsoft Visual Studio 10.0\VC\include\PhysXAPI\pxtask\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='x64-Debug|x64'">
+    <IncludePath>..\externals\x86-64\include;..\externals\x86-64\include\PhysXAPI\pxtask\include;..\externals\x86-64\include\PhysXAPI\extensions;..\externals\x86-64\include\PhysXAPI\common;..\externals\x86-64\include\PhysXAPI\foundation;..\externals\x86-64\include\PhysXAPI;..\externals\x86-64\include\tbb;$(IncludePath)</IncludePath>
+    <LibraryPath>..\externals\x86-64\lib;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='x64-Release|x64'">
+    <LibraryPath>..\externals\x86-64\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\externals\x86-64\include\PhysXAPI;..\externals\x86-64\include\PhysXAPI\extensions;..\externals\x86-64\include\PhysXAPI\common;..\externals\x86-64\include\PhysXAPI\foundation;..\externals\x86-64\include\tbb;..\externals\x86-64\include;..\externals\x86-64\include\PhysXAPI\pxtask\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-window-d.lib;sfml-main-d.lib;sfml-system-d.lib;sfml-graphics-d.lib;glew32.lib;OpenGL32.lib;sfml-audio-d.lib;DevIL.lib;lua51_d.lib;luabind_d.lib;PhysX3_x86.lib;Foundation.lib;PhysX3Extensions.lib;PxTask.lib;GeomUtils.lib;PhysX3Cooking_x86.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;OpenGL32.lib;sfml-main-d.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-audio-d.lib;DevIL.lib;lua51.lib;luabind_d.lib;PhysX3_x86.lib;Foundation.lib;PhysX3Extensions.lib;PxTask.lib;GeomUtils.lib;PhysX3Cooking_x86.lib;PxToolkit.lib;boost_thread-vc100-mt-gd-1_44.lib;tbb_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;msvcrt.lib;libcd.lib;libcmtd.lib;libcpmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;OpenGL32.lib;sfml-main.lib;sfml-system.lib;sfml-window.lib;sfml-audio.lib;DevIL.lib;lua51.lib;luabind.lib;PhysX3_x86.lib;Foundation.lib;PhysX3Extensions.lib;PxTask.lib;GeomUtils.lib;PhysX3Cooking_x86.lib;PxToolkit.lib;msvcrt.lib;msimg32.lib;version.lib;winmm.lib;imm32.lib;tbb.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;libcd.lib;libcmtd.lib;libcpmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;OpenGL32.lib;sfml-main.lib;sfml-system.lib;sfml-window.lib;sfml-audio.lib;DevIL.lib;lua51.lib;luabind.lib;PhysX3_x86.lib;Foundation.lib;PhysX3Extensions.lib;PxTask.lib;GeomUtils.lib;PhysX3Cooking_x86.lib;PxToolkit.lib;boost_thread-vc100-mt-gd-1_44.lib;msvcrt.lib;msimg32.lib;version.lib;winmm.lib;imm32.lib;tbb.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;libcd.lib;libcmtd.lib;libcpmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='x64-Debug|x64'">
+    <Link>
+      <AdditionalDependencies>glew32.lib;OpenGL32.lib;sfml-main-d.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-audio-d.lib;DevIL.lib;lua51_d.lib;luabind_d.lib;PhysX3_x64.lib;Foundation.lib;PhysX3Extensions.lib;PxTask.lib;GeomUtils.lib;PhysX3Cooking_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;msvcrt.lib;libcd.lib;libcmtd.lib;libcpmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='x64-Release|x64'">
+    <Link>
+      <AdditionalDependencies>glew32.lib;OpenGL32.lib;sfml-main.lib;sfml-system.lib;sfml-window.lib;sfml-audio.lib;DevIL.lib;lua51.lib;luabind.lib;PhysX3_x64.lib;Foundation.lib;PhysX3Extensions.lib;PxTask.lib;GeomUtils.lib;PhysX3Cooking_x64.lib;msvcrt.lib;msimg32.lib;version.lib;winmm.lib;imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='x64-Release|x64'">
+    <Link>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;libcd.lib;libcmtd.lib;libcpmt.lib</IgnoreSpecificDefaultLibraries>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AyumiEngine\AyumiCore\Configuration.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiCore\ContextManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiCore\EngineCoreStates.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiCore\Timer.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Bound.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Face.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\FaceSet.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\GeoModifier.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Line.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Object3D.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Segment.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Vector.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\Vertex.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiDestruction\VertexSet.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiInput\GamePad.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiInput\InputManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiInput\Keyboard.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiInput\Mouse.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiMath\CommonMath.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiPhysics\CollisionHandler.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiPhysics\PhysicsManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiRenderer\EffectManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiRenderer\LightManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiRenderer\MaterialManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiRenderer\Occlusion.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiRenderer\ParticleManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiRenderer\Renderer.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiRenderer\Sprite.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiRenderer\SpriteManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiRenderer\VolumeStorage.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiResource\Mesh.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiResource\MeshFactory.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</MinimalRebuild>
+      <MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</MinimalRebuild>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Default</BasicRuntimeChecks>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Default</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Async</ExceptionHandling>
+      <ExceptionHandling Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Async</ExceptionHandling>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+      <MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</MinimalRebuild>
+      <MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</MinimalRebuild>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Default</BasicRuntimeChecks>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Default</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ProgramDatabase</DebugInformationFormat>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Async</ExceptionHandling>
+      <ExceptionHandling Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Async</ExceptionHandling>
+    </ClCompile>
+    <ClCompile Include="AyumiEngine\AyumiResource\MeshManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiResource\Resource.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiResource\ResourceManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiResource\Shader.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiResource\ShaderFactory.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiResource\ShaderManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiResource\Texture.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiResource\TextureFactory.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiResource\TextureManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScene\AnimatedEntity.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScene\FirstPersonCamera.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScene\FlightCamera.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScene\FreeCamera.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScene\Frustum.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScene\OctTree.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScene\SceneEntity.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScene\SceneManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScene\StaticCamera.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScene\ThirdPersonCamera.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiScript.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiSound\MusicTrack.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiSound\SoundEffect.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiSound\SoundInterface.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiSound\SoundManager.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiUtils\BoundingBox.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiUtils\BoundingSphere.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiUtils\FrameBufferObject.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiUtils\VertexArrayObject.cpp" />
+    <ClCompile Include="AyumiEngine\AyumiUtils\VertexBufferObject.cpp" />
+    <ClCompile Include="AyumiEngine\Engine.cpp" />
+    <ClCompile Include="AyumiEngine\EngineInterface.cpp" />
+    <ClCompile Include="AyumiEngine\Logger.cpp" />
+    <ClCompile Include="AyumiEngine\VirtualMachine.cpp" />
+    <ClCompile Include="DepthOfFieldDemo.cpp" />
+    <ClCompile Include="IntelDemo.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ReflexGame.cpp" />
+    <ClCompile Include="SkyDemo.cpp" />
+    <ClCompile Include="SprintGame.cpp" />
+    <ClCompile Include="FractureDemo.cpp" />
+    <ClCompile Include="FrustumCullingDemo.cpp" />
+    <ClCompile Include="GeoModDemo.cpp" />
+    <ClCompile Include="GodraysDemo.cpp" />
+    <ClCompile Include="MaterialsDemo.cpp" />
+    <ClCompile Include="OcclusionCullingDemo.cpp" />
+    <ClCompile Include="OctTreeDemo.cpp" />
+    <ClCompile Include="ShadowMappingDemo.cpp" />
+    <ClCompile Include="TerrainDestructionDemo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AyumiDemo.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiCore\Configuration.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiCore\ContextManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiCore\EngineCoreStates.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiCore\StateMachine.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiCore\Timer.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\AyumiDestruction.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Bound.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\DestructibleObject.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\DestructibleTerrain.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Face.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\FaceSet.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\GeoModifier.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Line.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Object3D.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Segment.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Solid.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Vector.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\Vertex.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiDestruction\VertexSet.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\GamePad.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\InputAction.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\InputAxis.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\InputMouseButton.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\InputDevice.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\InputKey.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\InputManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\InputMoveAction.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\InputPadButton.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\Keyboard.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiInput\Mouse.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiMath\CommonMath.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiMath\Matrix.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiMath\Quaternion.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiMath\Vector.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiPhysics\CollisionHandler.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiPhysics\PhysicsManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiPhysics\PhysicsUtils.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\DefinedGeometry.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\DefinedShader.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\DirectionalLight.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\EffectManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\LightSourceParameters.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\LightManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\LightType.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\MaterialManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\MaterialProperties.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\Occlusion.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\Particle.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\ParticleEmiter.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\ParticleManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\PointLight.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\Renderer.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\RenderPass.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\ShadowMap.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\SpotLight.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\Sprite.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\SpriteManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\TransformationMatrices.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiRenderer\VolumeStorage.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\FileMD2.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\Mesh.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\MeshFactory.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\MeshManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\Resource.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\ResourceManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\Shader.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\ShaderFactory.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\ShaderManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\Texture.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\TextureFactory.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\TextureManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiResource\TextureType.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\AnimatedEntity.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\Camera.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityGeometry.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityLogic.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityMaterial.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityPhysics.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityState.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\EntityUpdateType.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\FirstPersonCamera.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\FlightCamera.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\FreeCamera.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\Frustum.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\KeyFrameAnimation.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\Octtree.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\SceneEntity.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\SceneGraph.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\SceneManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\SceneNode.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\StaticCamera.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScene\ThirdPersonCamera.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiScript.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiSound\MusicTrack.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiSound\SoundEffect.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiSound\SoundInterface.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiSound\SoundManager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\BoundingBox.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\BoundingSphere.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\Cloneable.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\FrameBufferObject.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\Manager.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\Noncopyable.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\Singleton.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\State.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\Vertex.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\VertexArrayObject.hpp" />
+    <ClInclude Include="AyumiEngine\AyumiUtils\VertexBufferObject.hpp" />
+    <ClInclude Include="AyumiEngine\Engine.hpp" />
+    <ClInclude Include="AyumiEngine\EngineInterface.hpp" />
+    <ClInclude Include="AyumiEngine\Log.hpp" />
+    <ClInclude Include="AyumiEngine\Logger.hpp" />
+    <ClInclude Include="AyumiEngine\VirtualMachine.hpp" />
+    <ClInclude Include="ReflexGame.hpp" />
+    <ClInclude Include="SprintGame.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AyumiEngine\AyumiResource\ResourceType.hpp" />
+    <None Include="ClassDiagram11.cd" />
+    <None Include="CoreModule.cd" />
+    <None Include="InputModule.cd" />
+    <None Include="MainModule.cd" />
+    <None Include="MathModule.cd" />
+    <None Include="PhysicsModule.cd" />
+    <None Include="RenderModule.cd" />
+    <None Include="ResourceModule.cd" />
+    <None Include="SceneModule.cd" />
+    <None Include="SoundModule.cd" />
+    <None Include="UtilsModule.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
